@@ -65,14 +65,88 @@
             <h3 class="title-two-column">More...</h3>
           <p class="text-two-column">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam mollitia perspiciatis eligendi, 
             vel animi sequi perferendis iste officia incidunt quod repudiandae cupiditate. Nisi, cupiditate repellendus!</p>
+            <div class="wrap-cta">
+              <a href="/" class="cta-a">Llamada a la acción</a>
+            </div> 
           </div>
-
-          <div class="wrap-cta">
-            <a href="/" class="cta-a">Llamada a la acción</a>
-          </div>             
         </div>
       </div>
     </section>
 
+    <section class="section two-column-section">
+      <div class="wrap title-section">
+        <h2 class="title-section">Contact form</h2>
+      </div>
+
+      <div class="wrap-two-column">
+
+        <div class="wrap-text-two-column">
+          <div class="wrap-two-column-text">
+            <h3>Contact us</h3>
+
+            <form action="procesar_formulario.php" class="form" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" class="input-contact" required=""> 
+              <br><br>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" class="input-contact" required="">
+              <br><br>
+
+              <label for="message">Message:</label>
+              <br>
+              <textarea name="message" id="message" class="input-contact" required="" rows="4" cols="40"></textarea>
+              <br><br>
+
+              <input type="submit" value="Send" class="cta-a">
+            </form>
+          </div>
+        </div>
+
+        <div class="wrap-img-two-column">
+          <img src="" alt="contact image" class="img-two-column">
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="wrap-footer-section">
+        <div class="wrap-social-logos">
+          <ul>
+            <li>
+              <a href="">
+                <img src="" alt="facebook logo" class="social-logo">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="" alt="instagram logo" class="social-logo">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-footer-section">
+        <div class="wrap-menu-footer-section">
+          <ul>
+            <li>
+              <a href="" class="menu-footer">Home</a>
+            </li>
+            <li>
+              <a href="" class="menu-footer">About</a>
+            </li>
+            <li>
+              <a href="" class="menu-footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-footer">
+        <div class="footer-creds">
+          <p class="text-footer">© Copyright 2024 - BK Design</p>
+      </div>
+    </footer>
     
   </body>
